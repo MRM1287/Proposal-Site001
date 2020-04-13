@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Matrimon Site Front Page</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="TBA" name="keywords">
+  <meta content="TBA" name="description">
+
+  <!-- Favicons will be changed -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/ionicons.min.css" rel="stylesheet">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: NA
+    Theme URL: NA
+    Authors: MRM & Riz
+    License: TBA
+  ======================================================= -->
+</head>
+
+<body>
+
+  <div class="click-closed"></div>
+  <!--/ Form Search Star /-->
+  <div class="box-collapse">
+    <div class="title-box-d">
+      <h3 class="title-d">Search your Match</h3>
+    </div>
+    <span class="close-box-collapse right-boxed ion-ios-close"></span>
+    <div class="box-collapse-wrap form">
+      <form class="form-a">
+        <div class="row">
+          <!--<div class="col-md-12 mb-2">
+            <div class="form-group">
+              <label for="Type">Keyword</label>
+              <input type="text" class="form-control form-control-lg form-control-a" placeholder="Keyword">
+            </div>
+          </div>-->
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="Type">Preference</label>
+              <select class="form-control form-control-lg form-control-a" id="Type">
+                <option>--</option>
+                <option>Bride</option>
+                <option>Groom</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="city">Mother Tongue</label>
+              <select class="form-control form-control-lg form-control-a" id="city">
+                <option>All</option>
+                <option>Sinhala</option>
+                <option>Tamil</option>
+                <option>English</option>
+                <option>Malay</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="bedrooms">Denomination</label>
+              <select class="form-control form-control-lg form-control-a" id="bedrooms">
+                <option>Any</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+              </select>
+            </div>
+          </div>
+          <!--<div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="garages">GRE</label>
+              <select class="form-control form-control-lg form-control-a" id="garages">
+                <option>Any</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+              </select>
+            </div>
+          </div>-->
+          <!--<div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="bathrooms">ABC</label>
+              <select class="form-control form-control-lg form-control-a" id="bathrooms">
+                <option>Any</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+              </select>
+            </div>
+          </div>-->
+          <br></br>
+          <br></br>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="price">Age Range</label>
+              <select class="form-control form-control-lg form-control-a" id="price">
+                <option>From</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+              </select>
+              <select class="form-control form-control-lg form-control-a" id="price">
+                <option>To</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-b">Search</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!--/ Form Search End /-->
+
+  <!--/ Nav Bar /-->
+  <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+    <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="nd text-brand" href="index.html">Proposal Site</a>
+      <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
+        data-target="#navbarTogglerDemo01" aria-expanded="false">
+        <span class="fa fa-search" aria-hidden="true"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarDefault">
+          <ul class="nav navbar-nav navbar-right">
+            <li></li>  
+        <div style="margin-top:5px;" class="form-group">
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="email">   
+        </div>
+        <div class="font12 clr9 padt5"><input type="checkbox" value="yes" id="STAYLOGIN" name="STAYLOGIN" checked="checked"> Keep me logged in
+        </div>
+          <div class="padt15 fright">
+                <form style="margin:0px;" action="https://www.srilankanmatrimony.com/login/logincheck.php" method="post" name="Login">
+                  <div id="login_form_web" style="display: block;">
+                    <div class="fleft">
+                      <input type="text" id="a12" style="width:150px; padding:10px 10px !important" onclick="if (this.value == 'Matrimony ID / E-mail') { this.value = ''; }" onfocus="if (this.value == 'Matrimony ID / E-mail') { this.value = ''; }" onblur="if (this.value == '') { this.value = 'Matrimony ID / E-mail'; }" value="Matrimony ID / E-mail" name="idEmail" class="txtbox font13" tabindex="1">
+
+                    </div> 
+                    <div class="fleft padl8">
+                      <input type="text" style=" padding:10px 10px !important; width:150px !important;width:150px;" autocomplete="OFF" maxlength="20" onclick="if (this.value == 'Password') { this.value = ''; }" onblur="if (this.value == '') { this.value = 'Password'; }" value="Password" name="passwordClear" id="passwordClear1" class="txtbox disblk font13 fleft" onfocus="passwordInput1();" tabindex="1">
+                                                              <input type="password" style=" padding:11px 10px 11px 10px !important; width:150px !important;" autocomplete="OFF" maxlength="20" value="" id="password1" name="password" class="txtbox disnon fleft" onblur="changeInput1();"><input type="submit" value="Login" onclick="PDLogTrackAjax();" class="medimum-btn login-btn font14 fleft" style="border:0px;height:36px;margin-left:8px;" tabindex="0"><br clear="all"><div class="font13 padt5"><a class="font12 clr9" onclick="forgotPassword('https://www.srilankanmatrimony.com');litebox('forgotpwddiv',500);" href="javascript:void(0);">Forgot your password?</a></div>
+                    </div><input type="hidden" value="yes" name="frmLoginSubmit"><input type="hidden" id="communityId" name="communityId" value="2007">
+          
+                    <!--<div class="fleft padl7 posrelative helpline" onmouseover="document.getElementById('hdrhelptip').style.display='block'" onmouseout="document.getElementById('hdrhelptip').style.display='none'"><a class="help-icon help24" href="#">Help <span class="help-dwnarw"></span></a>
+          
+                    <div id="hdrhelptip" style="display:none;">
+                      <div style="position:absolute; right:5px; top:26px; z-index:99999; padding:10px 10px 0px 30px;"><img src="https://imgs.srilankanmatrimony.com/cbsimages/hdr-help15-ptr.png" width="16" height="13" border="0" alt=""></div>
+                      <div style="position:absolute; right:0px; top:50px; z-index:99998; width:240px; background:#f0f0f0; border:solid 1px #eeeeee; padding:17px; -moz-box-shadow:2px 2px 3px #bbbbbb; -webkit-box-shadow:2px 2px 3px #bbbbbb; box-shadow:2px 2px 3px #bbbbbb;">
+                        <span class="disblk padb5" style="font:bold 15px arial; color:#424242;">For Service Assistance</span>
+                        <span class="disblk padb10" style="font:normal 15px arial; color:#434343; display:block;">Call 1800-3000-2222 (Toll-Free)</span>
+                        <div style="border-bottom:dotted 2px #c6c6c6;"></div>
+                        <span class="disblk padt10 padb5" style="font:bold 15px arial; color:#424242;">For Payment Assistance</span>
+                        <span style="font:normal 15px arial; color:#434343; display:block;">Call 1800-3000-4466 (Toll-Free)</span>
+                      </div>
+                      </div>
+                    </div> -->
+                  </div>
+                  <div class="clear"><!-- --></div>
+                  <div class="fleft padr10" id="login_form_res" style="display: none;"><a class="medimum-btn login-btn font14 fleft" href="javaScript:void(0);">Login</a></div>
+                  <div class="fleft padr10" id="register_nav" style="display: none;"><a alt="Register" class="register-link" href="javaScript:void(0);">Register</a></div>
+                </form>
+              </div>
+            </div>
+        
+      </div>
+      <button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse"
+        data-target="#navbarTogglerDemo01" aria-expanded="false">
+        <span class="fa fa-search" aria-hidden="true"></span>
+      </button>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+  <!--/ Carousel Star(Bg Img) /-->
+  <div class="intro intro-carousel">
+    <div id="carousel" class="owl-carousel owl-theme">
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/slide-1.jpg)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top">Doral, Florida
+                      <br> 78345</p>
+                    <h1 class="intro-title mb-4">
+                      <span class="color-c">Meet </span> your
+                      <br> Life Partner</h1>
+                    <p class="intro-subtitle intro-price">
+                      <a href="#"><span class="price-a">AAA | $ 00.000</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/slide-2.jpg)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top">Doral, Florida
+                      <br> 78345</p>
+                    <h1 class="intro-title mb-4">
+                      <span class="color-c">204 </span> Make
+                      <br> the Right Choice</h1>
+                    <p class="intro-subtitle intro-price">
+                      <a href="#"><span class="price-a">MMM | $ 00.000</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/slide-3.jpg)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <p class="intro-title-top">Doral, Florida
+                      <br> 78345</p>
+                    <h1 class="intro-title mb-4">
+                      <span class="color-c">204 </span> Get
+                      <br> Notified Instantly</h1>
+                    <p class="intro-subtitle intro-price">
+                      <a href="#"><span class="price-a">VVV | $ 00.000</span></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Carousel end /-->
+
+  <!--/ Services Star /-->
+  <section class="section-services section-t8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Our Services</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--<div class="row">
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <span class="fa fa-gamepad"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">Lifestyle</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa,
+                convallis a pellentesque
+                nec, egestas non nisi.
+              </p>
+            </div>
+            <div class="card-footer-c">
+              <a href="#" class="link-c link-icon">Read more
+                <span class="ion-ios-arrow-forward"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <span class="fa fa-usd"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">Loans</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit. Mauris blandit
+                aliquet elit, eget tincidunt
+                nibh pulvinar a.
+              </p>
+            </div>
+            <div class="card-footer-c">
+              <a href="#" class="link-c link-icon">Read more
+                <span class="ion-ios-arrow-forward"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <span class="fa fa-home"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">Sell</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa,
+                convallis a pellentesque
+                nec, egestas non nisi.
+              </p>
+            </div>
+            <div class="card-footer-c">
+              <a href="#" class="link-c link-icon">Read more
+                <span class="ion-ios-arrow-forward"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>-->
+  <!--/ Services End /-->
+
+
+
+  
+
+  <!--/ News Star /-->
+  <section class="section-news section-t8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div id="new-carousel" class="owl-carousel owl-theme">
+        <div class="carousel-item-c">
+          
+        </div>
+        <div class="carousel-item-c">
+          
+        </div>
+        <div class="carousel-item-c">
+          
+        </div>
+        <div class="carousel-item-c">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ News End /-->
+
+  <!--/ Testimonials Star /-->
+  <section class="section-testimonials section-t8 nav-arrow-a">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Testimonials</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="testimonial-carousel" class="owl-carousel owl-arrow">
+        <div class="carousel-item-a">
+          <div class="testimonials-box">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="testimonial-img">
+                  <img src="img/testimonial-1.jpg" alt="" class="img-fluid">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="testimonial-ico">
+                  <span class="ion-ios-quote"></span>
+                </div>
+                <div class="testimonials-content">
+                  <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium
+                    debitis hic ber quibusdam
+                    voluptatibus officia expedita corpori.
+                  </p>
+                </div>
+                <div class="testimonial-author-box">
+                  <img src="img/mini-testimonial-1.jpg" alt="" class="testimonial-avatar">
+                  <h5 class="testimonial-author">AAAAA & BBBB</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item-a">
+          <div class="testimonials-box">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="testimonial-img">
+                  <img src="img/testimonial-2.jpg" alt="" class="img-fluid">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="testimonial-ico">
+                  <span class="ion-ios-quote"></span>
+                </div>
+                <div class="testimonials-content">
+                  <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, cupiditate ea nam praesentium
+                    debitis hic ber quibusdam
+                    voluptatibus officia expedita corpori.
+                  </p>
+                </div>
+                <div class="testimonial-author-box">
+                  <img src="img/mini-testimonial-2.jpg" alt="" class="testimonial-avatar">
+                  <h5 class="testimonial-author">XXXX & XXXXX</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Testimonials End /-->
+
+  <!--/ footer Star /-->
+  <section class="section-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">Proposal Site</h3>
+            </div>
+            <div class="w-body-a">
+              <p class="w-text-a color-text-a">
+                Minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat duis
+                sed aute irure.
+              </p>
+            </div>
+            <div class="w-footer-a">
+              <ul class="list-unstyled">
+                <li class="color-a">
+                  <span class="color-text-a">Phone .</span> contact@example.com</li>
+                <li class="color-a">
+                  <span class="color-text-a">Email .</span> +00 000 0000</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">The Company</h3>
+            </div>
+            <div class="w-body-a">
+              <div class="w-body-a">
+                <ul class="list-unstyled">
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Site Map</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Legal</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Agent Admin</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Careers</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Affiliate</a>
+                  </li>
+                  <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="#">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">International sites</h3>
+            </div>
+            <div class="w-body-a">
+              <ul class="list-unstyled">
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Venezuela</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">China</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Hong Kong</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Argentina</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Singapore</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="#">Philippines</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="nav-footer">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">Home</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">About</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Property</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Blog</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="socials-a">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+          <div class="copyright-footer">
+            <p class="copyright color-text-a">
+              &copy; Copyright
+              <span class="color-a">Matrimon Site</span> All Rights Reserved.
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/ Footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/scrollreveal/scrollreveal.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
